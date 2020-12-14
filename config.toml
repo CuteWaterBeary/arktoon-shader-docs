@@ -1,4 +1,4 @@
-baseURL = "https://axcs.netlify.app/"
+baseURL = "https://synqark.github.io/AXCS_Docs/"
 languageCode = "ja-JP"
 title = "How to use ArxCharacterShaders"
 theme = "hugo-theme-learn"
