@@ -1,0 +1,14 @@
+baseURL = "https://synqark.github.io/Arktoon-Shaders-Doc/"
+languageCode = "ja-JP"
+title = "How to use Arktoon-Shaders"
+theme = "hugo-theme-learn"
+canonifyurls = true
+
+[params]
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+    # Disable search function. It will hide search bar
+  disableSearch = true
+
+[blackfriday]
+  hrefTargetBlank = true

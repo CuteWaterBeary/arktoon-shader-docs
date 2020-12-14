@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.60.0-DEV" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="https://synqark.github.io/Arktoon-Shaders-Doc/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="https://synqark.github.io/Arktoon-Shaders-Doc/images/favicon.png" type="image/x-icon" />
+    <title>Arktoon-Shaders のとくちょう :: How to use Arktoon-Shaders</title>
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&amp;subset=cyrillic,japanese" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/nucleus.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/fontawesome-all.min.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/hybrid.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/featherlight.min.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/perfect-scrollbar.min.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/auto-complete.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/theme.css?1573571014" rel="stylesheet">
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/hugo-theme.css?1573571014" rel="stylesheet">
+    
+      <link href="https://synqark.github.io/Arktoon-Shaders-Doc/css/theme-blue.css?1573571014" rel="stylesheet">
+    
+
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/jquery-2.x.min.js?1573571014"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/feature/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/"><img src="https://synqark.github.io/Arktoon-Shaders-Doc/images/logo_1024.png"/></a>
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/feature/" title="Arktoon-Shaders のとくちょう" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/feature/">
+          Arktoon-Shaders のとくちょう
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/start/" title="とりあえず使う" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/start/">
+          とりあえず使う
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/varieties/" title="シェーダーのバリエーション" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/varieties/">
+          シェーダーのバリエーション
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documents/" title="各カテゴリの機能について" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/">
+          各カテゴリの機能について
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/common/" title="Common" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/common/">
+        Common
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/alphamask_alphacutout/" title="AlphaMask / AlphaCutout" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/alphamask_alphacutout/">
+        AlphaMask / AlphaCutout
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/shadow/" title="Shadow" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/shadow/">
+        Shadow
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/gloss/" title="Gloss" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/gloss/">
+        Gloss
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/outline/" title="Outline" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/outline/">
+        Outline
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/matcap/" title="Matcap" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/matcap/">
+        Matcap
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/reflection/" title="Reflection" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/reflection/">
+        Reflection
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/rim/" title="Rim" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/rim/">
+        Rim
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/shadecap/" title="Shadecap" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/shadecap/">
+        Shadecap
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/parallaxed/" title="Parallaxed Emission" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/parallaxed/">
+        Parallaxed Emission
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documents/advanced/" title="Advanced" class="dd-item ">
+        <a href="https://synqark.github.io/Arktoon-Shaders-Doc/documents/advanced/">
+        Advanced
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/samples/" title="シェーダー作例(WIP)" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/samples/">
+          シェーダー作例(WIP)
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/history/" title="更新履歴" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/history/">
+          更新履歴
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/help/" title="お問い合わせ" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://synqark.github.io/Arktoon-Shaders-Doc/help/">
+          お問い合わせ
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='https://synqark.github.io/Arktoon-Shaders-Doc/'>Arktoon-Shaders. Docs</a> > Arktoon-Shaders のとくちょう
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#forwardrenderingの全てのライトをサポート-vrchatの鏡含む">ForwardRenderingの全てのライトをサポート （VRChatの鏡含む）</a></li>
+<li><a href="#豊富なカスタマイズ要素">豊富なカスタマイズ要素</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Arktoon-Shaders のとくちょう</h1>
+          
+
+        
+
+
+
+
+<h2 id="forwardrenderingの全てのライトをサポート-vrchatの鏡含む">ForwardRenderingの全てのライトをサポート （VRChatの鏡含む）</h2>
+
+<p>Forward Lightingにおける下記のライト要素をサポートします</p>
+
+<ul>
+<li>Directional Light<br />
+主に太陽光を表現する、平行光源です<br /></li>
+<li>Realtime Spot/Point Light （PixelLight, VertexLight, SH）<br />
+スポットライトや、電球などを表現するライトです<br />
+これらはいくつかパターンがありますが、全てのバリエーションで対応しています。<br /></li>
+<li>LightProbe(SH)<br />
+ライトプローブに対応しています。<br />
+これらの要素全てに対応した自作シェーダーは意外と少なく（特にVertexLight）<br />
+例えばVRChatでは鏡の反対側の映りが悪くなるシェーダーがいくつかありますが、<br />
+本シェーダーでは全て対応しており、シーンの空気感を損ねる事無く、一貫性のある表現が可能です。<br /></li>
+</ul>
+
+<h2 id="豊富なカスタマイズ要素">豊富なカスタマイズ要素</h2>
+
+<p>以下の要素をサポートします</p>
+
+<ul>
+<li>影のかかりかたを調整可能（薄く広く、またはきっちりとしたセル画風にも）<br /></li>
+<li>陰色テクスチャの使用・またはHSV（色相・彩度・明度）シフトによる陰色設定<br /></li>
+<li>ライトに対応するグロス（艶）<br /></li>
+<li>アウトライン<br /></li>
+<li>MatCap （比較(明) / 加算 / スクリーン合成）<br /></li>
+<li>リフレクション　（リフレクションプローブ / 持ち込みキューブマップ対応）<br /></li>
+<li>リムライト（モデルのふちが光る奴）<br /></li>
+<li>ShadeCap（比較(暗) / 乗算合成 / ライトマスク）（MatCapの逆）<br /></li>
+<li>ステンシル（半透明ステンシルを実現するいくつかの手段を含む）<br /></li>
+<li>頂点カラー<br /></li>
+<li>視差エミッションテクスチャ<br /></li>
+<li>その他細かい設定<br />
+　（ポイントライトの陰の強さ、Cubedスタイルの光源サンプリング、などなど）<br /></li>
+</ul>
+
+<p>これらのほとんどは適用度を設定でき、また、メッシュの一部に適用するためのマスクテクスチャをサポートしています。<br />
+各機能の細かい説明は次項より記載しております。</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://synqark.github.io/Arktoon-Shaders-Doc/" title="Arktoon-Shaders. Docs"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://synqark.github.io/Arktoon-Shaders-Doc/start/" title="とりあえず使う" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/clipboard.min.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/perfect-scrollbar.min.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/perfect-scrollbar.jquery.min.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/jquery.sticky.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/featherlight.min.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/html5shiv-printshiv.min.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/highlight.pack.js?1573571014"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/modernizr.custom.71422.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/learn.js?1573571014"></script>
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/js/hugo-learn.js?1573571014"></script>
+
+    <link href="https://synqark.github.io/Arktoon-Shaders-Doc/mermaid/mermaid.css?1573571014" type="text/css" rel="stylesheet" />
+    <script src="https://synqark.github.io/Arktoon-Shaders-Doc/mermaid/mermaid.js?1573571014"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
