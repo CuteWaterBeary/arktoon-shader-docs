@@ -6,9 +6,8 @@ canonifyurls = true
 
 [params]
 # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "blue"
-    # Disable search function. It will hide search bar
-  disableSearch = true
+  # themeVariant = "blue"
+  disableSearch = false
 
 [blackfriday]
   hrefTargetBlank = true
