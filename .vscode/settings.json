@@ -1,3 +1,6 @@
 {
-    "git.postCommitCommand": "sync"
+    "git.postCommitCommand": "sync",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
 }
