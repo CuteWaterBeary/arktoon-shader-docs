@@ -8,6 +8,9 @@ image: ""
 tags: ["", ""]
 author: ""
 weight: 6
+hidden: "true"
 ---
 
 [GitHubのReleaseページ](https://github.com/synqark/Arktoon-Shaders/releases)をご確認ください
+
+![](2020-12-16-23-27-54.png)

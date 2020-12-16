@@ -8,6 +8,7 @@ image: ""
 tags: ["", ""]
 author: ""
 weight: 1
+hidden: "true"
 ---
 
 ## ForwardRenderingの全てのライトをサポート （VRChatの鏡含む）  

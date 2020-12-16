@@ -7,6 +7,7 @@ description: ""
 image: ""
 tags: ["", ""]
 author: ""
+hidden: "true"
 weight: 3
 ---
 
