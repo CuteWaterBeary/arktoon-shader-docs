@@ -8,6 +8,6 @@ canonifyurls = true
 # Change default color scheme with a variant one. Can be "red", "blue", "green".
   # themeVariant = "blue"
   disableSearch = false
-
+disableInlineCopyToClipBoard = true
 [blackfriday]
   hrefTargetBlank = true
