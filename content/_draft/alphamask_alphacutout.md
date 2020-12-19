@@ -5,7 +5,7 @@ draft: false
 categories: ["", ""]
 description: ""
 image: ""
-tags: ["", ""]
+
 author: ""
 weight: 2
 ---

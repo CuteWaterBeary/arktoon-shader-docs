@@ -4,15 +4,15 @@ menuTitle: "ライセンス"
 date: 2020-12-16T17:18:04+09:00
 draft: false
 categories: ["", ""]
-description: ""
+description: "Unlicenseです。それ以外の情報はありません"
 image: ""
-tags: ["", ""]
+
 author: ""
 weight: 5
 ---
 ArxCharacterShadersはUnlicenseを採用しています  
 詳しくはunitypackage内のREADME.mdまたは下記文をご確認下さい
-## Unlicense
+### Unlicense
 ```text
 This is free and unencumbered software released into the public domain.
 

@@ -4,14 +4,14 @@ menuTitle: "バリエーション"
 date: 2020-12-16T17:18:04+09:00
 draft: false
 categories: ["", ""]
-description: ""
+description: "ArxCharacterShadersに含まれているシェーダーの種類を雑に紹介"
 image: ""
-tags: ["", ""]
+
 author: ""
 weight: 2
 ---
 
-## 基本バリエーション
+### 基本バリエーション
 ArxCharacterShadersのベースとなるバリエーションです
 #### ArxCharacterShaders/Opaque
 Opaque = 不透明  
@@ -30,7 +30,7 @@ Opaque = 不透明
 #### ArxCharacterShaders/FadeRefracted
 基本的に `Fade` と同じですが、透けた先を屈折させることができるバリエーションです  
 負荷はそこそこ高いため、使う場合は必要最小限に留めてください
-## Stencilバリエーション
+### Stencilバリエーション
 各基本バリエーションにステンシルバッファの操作機能を持たせたバリエーションです  
 画面上に存在する見えないレイヤーみたいなもので、メッシュを描画する時にそのバッファを書き換えたり、書き換えた内容を参照したりすることで、  
 複数のメッシュをまたいだ複雑な表現をすることができます。  
@@ -38,7 +38,7 @@ Opaque = 不透明
 ステンシルバッファを書き換えることのできるバリエーションです
 #### ArxCharacterShaders/_StencilReader
 ステンシルバッファを参照し、その内容に応じた描画の判断ができるバリエーションです
-## EmissiveFreakバリエーション
+### EmissiveFreakバリエーション
 上記の基本バリエーションとStencilバリエーションの各シェーダーに、様々なカラーエフェクトを設定する機能を持たせたバリエーションです
 #### ArxCharacterShaders/_EmissiveFreak
 特定のアニメーションが設定可能な２つのテクスチャを追加で利用できる、特殊バリエーションです
@@ -48,13 +48,13 @@ Opaque = 不透明
 - 色&テクスチャに奥行きをつける(Parallaxed Emissionと同じ効果)
 - いくつかの発光エフェクトと、それぞれの適用度を設定可能（ブリージング・ブリンク）
 - カラーシフトアニメーションを設定可能(Hue Shift)
-## Outlineバリエーション
+### Outlineバリエーション
 上記の基本・Stencil・EmissiveFreakの各シェーダーに、メッシュを囲むような外枠（アウトライン）を設定する機能を持たせたバリエーションです
 {{% notice info %}}
 `Outline`バリエーション以下には処理上の問題で`Fade`の基本バリエーションは含まれません  
 （要望が多い場合は検討します）
 {{% /notice %}}
-### ArxCharacterShaders/_Outline
+#### ArxCharacterShaders/_Outline
 上で説明した通りの内容です  
 ここまで説明した`Fade`以外の全てのバリエーションが含まれます
 <!-- {{< figure src="/images/variant_opaque.jpg" >}} -->
