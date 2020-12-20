@@ -29,11 +29,22 @@ weight: 60
 ##### Range & Mask
 陰の境目をどの程度ぼかすかを設定します  
 ぼけている部分の光～陰の推移は後述の`Shading Ramp`で設定します
-#### Shading Ramp
+##### Ramp in Range
 `Border & Range`で設定した陰の境目の範囲に対し、  
 どのような光の受け方をさせるかを段階的(Ramp)なテクスチャで設定します  
 {{% notice note %}}
 よく分からない場合は`Revert`ボタンをクリックし、ArxCharacterShadersに同梱されている各種Rampテクスチャを割り当ててみてください
+{{% /notice %}}
+#### Shadow Receiving
+※ `Fade`以外のバリエーションで表示  
+他のオブジェクトから受ける「影（落ち影）」の強度をスライダー＋マスクテクスチャで指定します
+{{% notice note %}}
+落ち影はマテリアルが設定されているオブジェクトの`Mesh Renderer`の`Receive Shadows`がオンであること、  
+Sceneに配置されたリアルタイムライトの`Shadow Type`が`Hard Shadows`または`Soft Shadows`であることで発生します  
+{{% /notice %}}
+{{% notice info %}}
+そもそもメッシュ全体で影を受けたく無い場合は、このスライダーを0にするより  
+`Mesh Renderer`の`Receive Shadows`をオフにすれば低コストに済みます
 {{% /notice %}}
 #### Default color shading
 ##### Strength & Mask
